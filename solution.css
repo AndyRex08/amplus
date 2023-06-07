@@ -1,0 +1,518 @@
+body  {
+    background-color:rgb(189, 184, 165);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 150px;
+    background-color: rgb(154, 204, 96);
+    margin-top: -30px;
+}
+
+.header h1{
+    font-size: 60px;
+    font-family: 'Berkshire  Swash', cursive;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.navbar  {
+    height: 40px;
+    background-color: gray;
+    opacity: 1;
+    margin-top: 67px;
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    height: auto;
+    font-size: 23px;
+    font-family: 'Rancho', cursive;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: -9px;
+}
+
+.navbar a:hover{
+    background-color: bisque;
+    color: black;
+}
+
+.navbar a:active{
+    background-color: darkolivegreen;
+    color:bisque;
+}
+
+.my_div {
+    height: auto;
+    margin-top: -27px;
+}
+
+.my_div h1{
+    font-size: 80px;
+    width: 700px;
+    font-family: 'Berkshire  Swash', cursive;
+    text-align: justify;
+    margin-top: 67px;
+}
+
+.my_div h2{
+    height: 110px;
+    font-size: 80px;
+    width: 700px;
+    font-family: 'Berkshire  Swash', cursive;
+    text-align: justify;
+    margin-top: -54px;
+    padding-top: 10px;
+    background-color: rgb(154, 204, 96);
+}
+
+.main {
+    float: left;
+    width: 30%;
+}
+
+.Building_Automation {
+    float: left;
+    width: 25%;
+    height: 200px;
+    background-color: rgb(159, 163, 161);
+    max-width: 960px;
+    margin-top: 50px;
+    margin-left: 3.3%;
+    margin-right: 3.3%;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border: 3px solid gray;
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+}
+
+.Building_Automation a{
+    text-decoration: none;
+    color: black;    
+}
+
+.Building_Automation a:hover{
+    background-color: bisque;
+    color: black;
+}
+
+
+.Building_Automation h2{
+    font-size: 60px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.ITS {
+    float: left;
+    width: 25%;
+    height: 200px;
+    background-color: rgb(159, 163, 161);
+    max-width: 960px;
+    margin-top: 50px;
+    margin-left: 3.3%;
+    margin-right: 3.3%;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border: 3px solid gray;
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+}
+
+.ITS a{
+    text-decoration: none;
+    color: black;    
+}
+
+.ITS a:hover{
+    background-color: bisque;
+    color: black;
+}
+
+
+.ITS h2{
+    font-size: 60px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+
+.ITS p{
+    font-size: 30px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -40px;
+}
+
+.MAD {
+    float: left;
+    width: 25%;
+    height: 200px;
+    background-color: rgb(159, 163, 161);
+    max-width: 960px;
+    margin-top: 50px;
+    margin-left: 3.3%;
+    margin-right: 3.3%;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border: 3px solid gray;
+    animation-name: fadeInRight;
+    animation-duration: 2s;
+}
+
+.MAD a{
+    text-decoration: none;
+    color: black;    
+}
+
+.MAD a:hover{
+    background-color: bisque;
+    color: black;
+}
+
+
+.MAD h2{
+    font-size: 57px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.ERP {
+    float: left;
+    width: 25%;
+    height: 200px;
+    background-color: rgb(159, 163, 161);
+    max-width: 960px;
+    margin-top: 70px;
+    margin-left: 3.3%;
+    margin-right: 3.3%;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border: 3px solid gray;
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+}
+
+.ERP a{
+    text-decoration: none;
+    color: black;    
+}
+
+.ERP a:hover{
+    background-color: bisque;
+    color: black;
+}
+
+
+.ERP h2{
+    font-size: 53Px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.SD {
+    float: left;
+    width: 25%;
+    height: 200px;
+    background-color: rgb(159, 163, 161);
+    max-width: 960px;
+    margin-top: 70px;
+    margin-left: 3.3%;
+    margin-right: 3.3%;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border: 3px solid gray;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+.SD a{
+    text-decoration: none;
+    color: black;    
+}
+
+
+.SD a:hover{
+    background-color: bisque;
+    color: black;
+}
+
+.SD h2{
+    font-size: 45px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.SD p{
+    font-size: 25px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -15px;
+}
+
+.CCS {
+    float: left;
+    width: 25%;
+    height: 200px;
+    background-color: rgb(159, 163, 161);
+    max-width: 960px;
+    margin-top: 70px;
+    margin-left: 3.3%;
+    margin-right: 3.3%;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border: 3px solid gray;
+    animation-name: fadeInRight;
+    animation-duration: 2s;
+}
+
+.CCS a{
+    text-decoration: none;
+    color: black;    
+}
+
+
+.CCS a:hover{
+    background-color: bisque;
+    color: black;
+}
+
+.CCS h2{
+    font-size: 57px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+
+.E-services {
+    float: left;
+    width: 25%;
+    height: 200px;
+    background-color: rgb(159, 163, 161);
+    max-width: 960px;
+    margin-top: 70px;
+    margin-left: 3.3%;
+    margin-right: 3.3%;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border: 3px solid gray;
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+}
+
+.E-services a{
+    text-decoration: none;
+    color: black;    
+}
+
+.E-Services a:hover{
+    background-color: bisque;
+    color: black;
+}
+
+
+.E-services h2{
+    font-size: 53Px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.E-services p{
+    font-size: 25px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.sitos {
+    float: left;
+    width: 25%;
+    height: 200px;
+    background-color: rgb(159, 163, 161);
+    max-width: 960px;
+    margin-top: 70px;
+    margin-left: 3.3%;
+    margin-right: 3.3%;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border: 3px solid gray;
+    animation-name: fadeInUp;
+    animation-duration: 2s;
+}
+
+.sitos a{
+    text-decoration: none;
+    color: black;    
+}
+
+
+.sitos a:hover{
+    background-color: bisque;
+    color: black;
+}
+
+.sitos h2{
+    font-size: 45px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.web_hosting {
+    float: left;
+    width: 25%;
+    height: 200px;
+    background-color: rgb(159, 163, 161);
+    max-width: 960px;
+    margin-top: 70px;
+    margin-left: 3.3%;
+    margin-right: 3.3%;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border: 3px solid gray;
+    animation-name: fadeInRight;
+    animation-duration: 2s;
+}
+
+.web_hosting a{
+    text-decoration: none;
+    color: black;    
+}
+
+
+.web_hosting a:hover{
+    background-color: bisque;
+    color: black;
+}
+
+.web_hosting h2{
+    font-size: 45px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: px;
+}
+
+.IT_Hardware {
+    float: left;
+    width: 25%;
+    height: 200px;
+    background-color: rgb(159, 163, 161);
+    max-width: 960px;
+    margin-top: 70px;
+    margin-left: 3.3%;
+    margin-right: 3.3%;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border: 3px solid gray;
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+}
+
+.IT_Hardware a{
+    text-decoration: none;
+    color: black;    
+}
+
+.IT_Hardware a:hover{
+    background-color: bisque;
+    color: black;
+}
+
+.IT_Hardware h2{
+    font-size: 60px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.contact {
+    height: auto;
+    width: 1300px;
+    background-color: black;  
+    margin-top: 90%;
+    margin-left: auto;
+    margin-right: auto; 
+    animation-name: fadeInLeftBig;
+    animation-duration: 2s;
+}
+
+.contact h2{
+    font-size: 60px;
+    font-family: 'Style Script', cursive;
+    text-align: center;
+    color: bisque;
+}
+
+.contact h3{
+    font-size: 50px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    color: bisque;
+    text-decoration: underline;
+}
+
+.contact p{
+    font-size: 40px;
+    margin-top: -40px;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    color: bisque;
+}
+
+.contact h4{
+    font-size: 40px;
+    margin-top: -40px;
+    margin-left: 40px;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    color: bisque;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.contact h5{
+    font-size: 40px;
+    margin-top: -40px;
+    margin-right: 40px;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    color: bisque;
+    padding-bottom: 15px;
+    text-align: right;
+}
+
+footer {
+    width: 1300px;
+    background-color: black;  
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    height: auto;
+    font-size: 25px;
+    font-family: 'Rancho', cursive;
+    margin-top: -60px;
+    text-align: center;
+}
