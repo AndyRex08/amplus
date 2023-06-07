@@ -1,0 +1,198 @@
+body {
+    background-color:rgb(189, 184, 165);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 150px;
+    background-color: rgb(154, 204, 96);
+    margin-top: -30px;
+}
+
+.header h1{
+    font-size: 60px;
+    font-family: 'Berkshire  Swash', cursive;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.navbar  {
+    height: 40px;
+    background-color: gray;
+    opacity: 1;
+    margin-top: 67px;
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    height: auto;
+    font-size: 23px;
+    font-family: 'Rancho', cursive;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: -9px;
+}
+
+.navbar a:hover{
+    background-color: bisque;
+    color: black;
+}
+
+.navbar a:active{
+    background-color: darkolivegreen;
+    color:bisque;
+}
+
+.team {
+    height: auto;
+    margin-top: -27px;
+}
+    
+.team h1{
+    font-size: 80px;
+    width: 700px;
+    font-family: 'Berkshire  Swash', cursive;
+    text-align: justify;
+    margin-top: 67px;
+}
+
+.CEO {
+    height: 460px;
+    background-color:rgb(207, 203, 186);
+    animation-name: fadeInRight;
+    animation-duration: 2s;
+    margin-top: 80px;
+}
+
+.CEO img{
+    float: left;
+    height: 448px;
+    width: 350px;
+    background-color: black;
+    border: 4px solid bisque;
+}
+
+.CEO h2{
+    height: 50px;
+    width: 700px;
+    font-size: 40px;
+    font-family: 'Rancho', cursive;
+    margin-left: 400px;
+    background-color: rgb(154, 204, 96);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.CEO p{
+    margin-left: 400px;
+    font-size: 30px;
+    font-family: 'Rancho', cursive;
+    text-align: justify;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+.MD {
+    height: 455px;
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+}
+
+.MD img{
+    float: right;
+    height: 448px;
+    width: 350px;
+    background-color: black;
+    border: 4px solid bisque;
+}
+
+.MD h2{
+    height: 50px;
+    width: 700px;
+    margin-left: 20px;
+    margin-right: 400px;
+    font-size: 40px;
+    font-family: 'Rancho', cursive;
+    background-color: rgb(154, 204, 96);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.MD p{
+    font-size: 30px;
+    font-family: 'Rancho', cursive;
+    text-align: justify;
+    margin-right: 400px;
+    margin-left: 20px;
+}
+
+.COO {
+    height: 455px;
+    background-color:rgb(207, 203, 186);
+    animation-name: fadeInRight;
+    animation-duration: 2s;
+}
+
+.COO img{
+    float: left;
+    height: 448px;
+    width: 350px;
+    background-color: black;
+    border: 4px solid bisque;
+}
+
+.COO h2{
+    height: 50px;
+    width: 700px;
+    font-size: 40px;
+    font-family: 'Rancho', cursive;
+    margin-left: 400px;
+    background-color: rgb(154, 204, 96);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.COO p{
+    margin-left: 400px;
+    font-size: 30px;
+    font-family: 'Rancho', cursive;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.BA {
+    height: 455px;
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+}
+
+.BA img{
+    float: right;
+    height: 448px;
+    width: 350px;
+    background-color: black;
+    border: 4px solid bisque;
+}
+
+.BA h2{
+    height: 50px;
+    width: 700px;
+    margin-left: 20px;
+    margin-right: 400px;
+    font-size: 40px;
+    font-family: 'Rancho', cursive;
+    background-color: rgb(154, 204, 96);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.BA p{
+    font-size: 30px;
+    font-family: 'Rancho', cursive;
+    text-align: justify;
+    margin-right: 400px;
+    margin-left: 20px;
+}
