@@ -1,0 +1,154 @@
+body {
+    background-color:rgb(189, 184, 165);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 150px;
+    background-color: rgb(154, 204, 96);
+    margin-top: -30px;
+}
+
+.header h1{
+    font-size: 60px;
+    font-family: 'Berkshire  Swash', cursive;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+.navbar  {
+    height: 40px;
+    background-color: gray;
+    opacity: 1;
+    margin-top: 67px;
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    height: auto;
+    font-size: 23px;
+    font-family: 'Rancho', cursive;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: -9px;
+}
+
+.navbar a:hover{
+    background-color: bisque;
+    color: black;
+}
+
+.navbar a:active{
+    background-color: darkolivegreen;
+    color:bisque;
+}
+
+.building {
+    height: auto;
+    background-color: rgb(154, 204, 96);
+    margin-top: -27px;
+    color: white;
+}
+
+.building h2{
+    font-size: 80px;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    line-height: 110%;
+}
+
+.building p{
+    font-size: 30px;
+    font-family: 'Catamaran', sans-serif;
+    text-align: justify;
+    margin-top: -70px;
+    margin-left: 22px;
+}
+
+.intro {
+    height: auto;
+    width: 90%;
+    margin-right: auto;
+    margin-left: 70px;
+    text-align: center;
+}
+
+.intro p{
+    font-family: 'Rancho', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+    line-height: 150%;
+    word-spacing: 5px;
+}
+
+.contact {
+    height: auto;
+    width: 1300px;
+    background-color: black;  
+    margin-left: auto;
+    margin-right: auto; 
+    animation-name: fadeInUpBig;
+    animation-duration: 2s;
+}
+
+.contact h2{
+    font-size: 60px;
+    font-family: 'Style Script', cursive;
+    text-align: center;
+    color: bisque;
+}
+
+.contact h3{
+    font-size: 50px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    color: bisque;
+    text-decoration: underline;
+}
+
+.contact p{
+    font-size: 40px;
+    margin-top: -40px;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    color: bisque;
+}
+
+.contact h4{
+    font-size: 40px;
+    margin-top: -40px;
+    margin-left: 40px;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    color: bisque;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.contact h5{
+    font-size: 40px;
+    margin-top: -40px;
+    margin-right: 40px;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    color: bisque;
+    padding-bottom: 15px;
+    text-align: right;
+}
+
+footer {
+    width: 1300px;
+    background-color: black;  
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    height: auto;
+    font-size: 25px;
+    font-family: 'Rancho', cursive;
+    margin-top: -60px;
+    text-align: center;
+}
