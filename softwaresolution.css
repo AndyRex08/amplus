@@ -1,0 +1,260 @@
+body {
+    background-color:rgb(204, 199, 183);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 150px;
+    background-image: url(ampluss.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -30px;
+}
+
+.navbar  {
+    height: 40px;
+    background-color:rgb(160, 168, 177);
+    opacity: 1;
+    margin-top: 113px;
+    overflow: hidden;
+}
+
+.navbar a{
+    float: left;
+    height: auto;
+    font-size: 23px;
+    font-family: 'Rancho', cursive;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: -9px;
+}
+
+.navbar a:hover{
+    background-color: bisque;
+    color: black;
+}
+
+.navbar a:active{
+    background-color: darkolivegreen;
+    color:bisque;
+}
+
+.softwaresolution {
+    height: auto;
+    margin-top: -14px;
+    background-color: rgb(113, 128, 65);
+    color: white;
+}
+
+.softwaresolution h1{
+    font-size: 80px;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    margin-left: 22px;
+    line-height: 120%;
+}
+
+.ERP {
+    height: auto;
+    text-align: left;
+    width: 80%;
+    margin-left: 80px;
+    margin-top: -53px;
+    padding: 20px 0px 10px 0px;
+}
+
+.ERP h2{
+    font-size: 40px;
+    font-family: 'Berkshire  Swash', cursive;
+    margin-left: 20px;
+    color: rgb(126, 153, 95);
+}
+
+.ERP p{
+    width: 1200px;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 35px;
+    font-family: 'Rancho', cursive;
+}
+
+.picture {
+    height: 400px;
+    background-color: rgb(168, 166, 157);
+    border-top: 3px solid rgb(113, 128, 65);
+    border-bottom: 3px solid rgb(113, 128, 65);
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+}
+
+.CRM {    
+    height: auto;
+    text-align: left;
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 30px;
+    padding: 0px 0px 10px 20px;
+}
+
+.CRM h2{
+    font-size: 35px;
+    margin-left: 40px;
+    font-family: 'Berkshire  Swash', cursive;
+    color: rgb(126, 153, 95);
+}
+
+.CRM h3{
+    font-size: 45px;
+    margin-left: 400px;
+    text-align: left;
+    font-family: 'Rancho', cursive;
+    margin-bottom: 5px;
+}
+
+.CRM li{
+    margin-left: 400px;
+    width: 40%;
+    font-size: 35px;
+    font-family: 'Rancho', cursive;
+}
+
+.CRM p{
+        text-align: left;
+        margin-left: 40px;
+        font-size: 35px;
+        font-family: 'Rancho', cursive;
+}
+
+.facility {
+    height: auto;
+    text-align: left;
+    width: 80%;
+    margin-left: 80px;
+    padding: 5px 0px 10px 20px;
+}
+
+.facility p{
+    font-size: 35px;
+    font-family: 'Rancho', cursive;
+}
+
+.facility h4{
+    height: auto;
+    font-size: 40px;
+    font-family: 'Rancho', cursive;
+    color: rgb(126, 153, 95);
+    text-align: center;
+}
+
+.img{
+    height: 370px;
+    background-color: rgb(126, 153, 95);
+    border: 2px solid slategrey;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-bottom: 0px;
+    animation-name: slideInRight;
+    animation-duration: 2s;
+}
+
+.CRMimplementation {
+    height: auto;
+    text-align: left;
+    width: 80%;
+    margin-left: 80px;
+}
+
+.CRMimplementation p{
+    font-size: 35px;
+    font-family: 'Rancho', cursive;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.pic{
+    height: 370px;
+    background-color: rgb(126, 153, 95);
+    border: 2px solid slategrey;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-bottom: 0px;
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+}
+
+.contact {
+    height: auto;
+    width: 1300px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto; 
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+}
+
+.contact h2{
+    font-size: 60px;
+    font-family: 'Style Script', cursive;
+    text-align: center;
+    color: rgb(237, 255, 196);
+}
+
+.contact h3{
+    font-size: 50px;
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    color: bisque;
+    text-decoration: underline;
+}
+
+.contact p{
+    font-size: 40px;
+    margin-top: -40px;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    color: bisque;
+}
+
+.contact h4{
+    font-size: 40px;
+    margin-top: -40px;
+    margin-left: 40px;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    color: bisque;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.contact h5{
+    font-size: 40px;
+    margin-top: -40px;
+    margin-right: 40px;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    color: bisque;
+    padding-bottom: 15px;
+    text-align: right;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 1300px;
+    background-color: black;  
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    height: auto;
+    font-size: 25px;
+    font-family: 'Rancho', cursive;
+    margin-top: -60px;
+    text-align: center;
+}
